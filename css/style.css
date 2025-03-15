@@ -734,25 +734,24 @@
     transform: translate(-50%, -50%);
     object-fit: cover;
     display: block;
-    padding: 2px;
-    /* Slight padding to ensure centering */
+    /* padding: 2px; */
 }
-
 .name-title {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 15px;
+    gap: 2px;
 }
 
 .test-s1 {
     font-family: Muli;
     font-weight: 700;
     font-size: 22px;
-    line-height: 48px;
+    line-height: 24px;
     letter-spacing: 0%;
     color: #FFFFFF;
     margin: 0;
+    padding: 0;
 }
 
 .test-s2 {
@@ -762,9 +761,9 @@
     line-height: 24px;
     letter-spacing: 0%;
     color: #FFFFFFD9;
-    margin: 0;
+    /* margin: 0;
+    padding: 0; */
 }
-
 .test-text {
     display: flex;
     flex-direction: column;
