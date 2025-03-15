@@ -1,19 +1,18 @@
-.container{
-    width: 1600;
-    height: 5870;
-    top: -504px;
-    left: -637px;
+.container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
 }
+
 .header {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    /* /* position: absolute; */
-    /* width: 1487px;
-    height: 719px; */
     left: -50px;
-    top: 56px; 
+    top: 56px;
 }
+
 .top-task {
     display: flex;
     justify-content: space-around;
@@ -26,6 +25,7 @@
     padding-bottom: 40px;
     z-index: 1000;
 }
+
 .logo {
     display: flex;
     align-items: center;
@@ -58,6 +58,12 @@
     color: #233348;
 }
 
+.top-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
 .top-nav a {
     text-decoration: none;
     padding: 20px;
@@ -82,6 +88,7 @@
     line-height: 100%;
     letter-spacing: 0%;
 }
+
 .element {
     position: absolute;
     top: 30px;
@@ -102,6 +109,7 @@
     background-color: #97C3F9;
     border-radius: 50%;
 }
+
 .head-body {
     position: relative;
     z-index: 1;
@@ -118,8 +126,6 @@
 
 .body-text {
     width: 350px;
-    /* padding: 20px 20px 20px 0; */
-    /* margin: 20px 20px 20px 0; */
 }
 
 .body-h {
@@ -177,7 +183,8 @@
     height: 100%;
     display: block;
 }
-.our-services{
+
+.our-services {
     width: 952px;
     height: 177px;
     display: flex;
@@ -185,11 +192,13 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    
-}.service-text {
+}
+
+.service-text {
     width: 100%;
 }
-.service-h{
+
+.service-h {
     font-family: Muli;
     font-weight: 700;
     font-size: 36px;
@@ -197,7 +206,8 @@
     letter-spacing: 0%;
     color: black;
     margin-bottom: 5px;
- }
+}
+
 .rectangle {
     content: " ";
     width: 50px;
@@ -208,8 +218,8 @@
     background-color: #000000;
     display: block;
     margin: 0px auto;
-    
 }
+
 .service-p {
     width: 952px;
     height: 60px;
@@ -236,6 +246,7 @@
     margin: 50px auto;
     flex-wrap: wrap;
 }
+
 .service-card {
     width: 300px;
     height: 354px;
@@ -256,7 +267,7 @@
 .service-icon {
     width: 50px;
     height: 100px;
-    margin-left: 15px ;
+    margin-left: 15px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     object-fit: contain;
@@ -280,6 +291,7 @@
     color: black;
     margin-bottom: 10px;
 }
+
 .service-par {
     width: 266px;
     height: auto;
@@ -291,6 +303,7 @@
     color: #7D7987;
     text-align: center;
 }
+
 .services-btn {
     width: 200px;
     height: 60px;
@@ -299,6 +312,7 @@
     text-align: center;
     margin: 0 auto;
 }
+
 .btn-learn-more {
     width: 200px;
     height: 56px;
@@ -311,26 +325,27 @@
     font-family: "Muli", sans-serif;
     font-weight: 700;
     font-size: 18px;
-   
 }
 
-.sec-containt{
-    width: 1273px;
+.sec-containt {
+    max-width: 1273px;
+    width: 90%;
     height: 477px;
     display: flex;
-    justify-content: space-evenly;
     justify-content: center;
     gap: 50px;
     margin-top: 150px;
-
+    margin-left: auto;
+    margin-right: auto;
 }
-.sec-all{
+
+.sec-all {
     width: 350px;
     height: 388px;
     padding: 40px;
-
 }
-.sec-h{
+
+.sec-h {
     width: 450px;
     height: 112px;
     font-family: Muli;
@@ -341,7 +356,8 @@
     color: black;
     margin-bottom: 5px;
 }
-.sec-p{
+
+.sec-p {
     width: 450px;
     height: 120px;
     font-family: Muli;
@@ -351,6 +367,7 @@
     letter-spacing: 0%;
     color: #7D7987;
 }
+
 .sec-rectangle {
     content: " ";
     width: 50px;
@@ -360,10 +377,10 @@
     border-radius: 5px;
     background-color: #000000;
     display: block;
-    margin: 0px ;
+    margin: 0px;
     padding: 0px;
-
 }
+
 .sec-btn {
     width: 200px;
     height: 60px;
@@ -373,11 +390,14 @@
     margin: 0px;
     padding: 0px;
 }
+
 .sec-img {
-    width: 550px;
+    max-width: 550px;
+    width: 70%;
     height: 400px;
     padding: 10px;
 }
+
 .element-2 {
     position: absolute;
     width: 90px;
@@ -407,21 +427,21 @@
 }
 
 .down-containt {
-    width: 1273px;
+    max-width: 1273px;
+    width: 90%;
     height: 477px;
     display: flex;
-    justify-content: space-evenly;
-    justify-content: center;
-    gap: 80px;
+    justify-content: space-around;
+    gap: 100px;
     margin-top: 150px;
-
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .down-all {
     width: 350px;
     height: 388px;
     padding: 40px;
-
 }
 
 .down-h {
@@ -458,7 +478,6 @@
     display: block;
     margin: 0px;
     padding: 0px;
-
 }
 
 .down-btn {
@@ -472,15 +491,17 @@
     margin: 0px;
     padding: 0px;
 }
+
 .btn-learn-more {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0 15px;
 }
+
 .down-img {
-    width: 550px;
+    max-width: 550px;
+    width: 70%;
     height: 400px;
     padding: 10px;
 }
-
