@@ -393,7 +393,7 @@
 
 .sec-img {
     max-width: 550px;
-    width: 70%;
+    width: 80%;
     height: 400px;
     padding: 10px;
 }
@@ -432,7 +432,7 @@
     height: 477px;
     display: flex;
     justify-content: space-around;
-    gap: 100px;
+    gap: 50px;
     margin-top: 150px;
     margin-left: auto;
     margin-right: auto;
@@ -501,7 +501,7 @@
 
 .down-img {
     max-width: 550px;
-    width: 70%;
+    width: 80%;
     height: 400px;
     padding: 10px;
 }
