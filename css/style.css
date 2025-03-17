@@ -1,3 +1,4 @@
+/* General Styles */
 html,
 body {
     margin: 0;
@@ -16,7 +17,8 @@ body {
     overflow: hidden;
 }
 
-/* Header */
+/* ************************************** First Section (Header) Start ***************************************** */
+/* Header Container */
 .header {
     max-width: 1000px;
     margin: 0 auto;
@@ -25,7 +27,7 @@ body {
     top: 56px;
 }
 
-/* First Section */
+/* Navigation Bar */
 .top-task {
     display: flex;
     justify-content: space-around;
@@ -39,6 +41,7 @@ body {
     z-index: 1000;
 }
 
+/* Logo */
 .logo {
     display: flex;
     align-items: center;
@@ -71,6 +74,7 @@ body {
     color: #233348;
 }
 
+/* Navigation Links */
 .top-nav {
     display: flex;
     justify-content: center;
@@ -102,6 +106,7 @@ body {
     letter-spacing: 0%;
 }
 
+/* Dot Element (Top Left) */
 .element {
     position: absolute;
     top: 30px;
@@ -125,6 +130,7 @@ body {
     border-radius: 50%;
 }
 
+/* Header Body */
 .head-body {
     position: relative;
     z-index: 1;
@@ -199,7 +205,8 @@ body {
     display: block;
 }
 
-/* Second Section */
+
+/* ************************************** Second Section (Our Services) Start ***************************************** */
 .our-services {
     width: 100%;
     max-width: 952px;
@@ -367,7 +374,8 @@ body {
     padding: 0 15px;
 }
 
-/* Third Section */
+
+/* ************************************** Third Section (Leading Healthcare Providers) Start ***************************************** */
 .sec-containt {
     max-width: 1273px;
     width: 90%;
@@ -453,7 +461,8 @@ body {
     z-index: 0;
 }
 
-/* Fourth Section */
+
+/* ************************************** Fourth Section (Download Mobile Apps) Start ***************************************** */
 .down-containt {
     max-width: 1273px;
     width: 90%;
@@ -526,7 +535,8 @@ body {
     padding: 10px;
 }
 
-/* Fifth Section */
+
+/* ************************************** Fifth Section (Testimonials) Start ***************************************** */
 .testimonials {
     max-width: 1212px;
     width: 90%;
@@ -709,7 +719,10 @@ body {
 
 .active {
     opacity: 1;
-}/* Six Section */
+}
+
+
+/* ************************************** Sixth Section (Latest Articles) Start ***************************************** */
 .our-article {
     width: 100%;
     height: auto;
@@ -723,6 +736,7 @@ body {
     position: relative;
 }
 
+/* Article Caption */
 .article-text {
     width: 100%;
     max-width: 952px;
@@ -738,6 +752,7 @@ body {
     margin-bottom: 10px;
 }
 
+/* Articles Grid */
 .article {
     width: 100%;
     height: auto;
@@ -748,8 +763,10 @@ body {
     padding: 0 20px;
     box-sizing: border-box;
     position: relative;
-    z-index: 1; 
+    z-index: 1;
 }
+
+/* Background Element (Commented Out) */
 /* .background-element {
     position: absolute;
     width: 600px;
@@ -763,6 +780,7 @@ body {
     z-index: -1;
 } */
 
+/* Dot Element (Middle of Sixth Section) */
 .element-5 {
     position: absolute;
     left: 115px;
@@ -778,6 +796,7 @@ body {
     z-index: 1;
 }
 
+/* Article Cards */
 .article-card {
     width: 330px;
     height: 500px;
@@ -870,7 +889,9 @@ body {
     padding-top: 50px;
     padding-bottom: 70px;
 }
-/* Seven Section */
+
+
+/* ************************************** Seventh Section (Footer) Start ***************************************** */
 .footer {
     width: 100%;
     height: 400px;
@@ -885,6 +906,7 @@ body {
     position: relative;
 }
 
+/* Dot Element (Footer Bottom Left) */
 .element-4 {
     position: absolute;
     bottom: 0px;
@@ -900,6 +922,8 @@ body {
     margin: 0px;
     padding: 0px;
 }
+
+/* Footer First Column */
 .footer-first {
     width: 391px;
     height: 201px;
@@ -980,6 +1004,7 @@ body {
     margin: 30px 0 0 0;
 }
 
+/* Footer Columns (Company, Region, Help) */
 .footer-column {
     display: flex;
     flex-direction: column;
@@ -1019,3 +1044,4 @@ body {
     text-decoration: none;
     letter-spacing: 0%;
 }
+
