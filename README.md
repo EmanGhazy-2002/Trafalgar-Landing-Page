@@ -27,8 +27,3 @@ This project was created as a task to practice front-end development skills, foc
 - Add interactivity using JavaScript (e.g., for the testimonials carousel).
 - Include animations for smoother transitions and better user engagement.
 - Integrate a backend to make the "Consult Today" and "Download" buttons functional.
-
-## Contact
-If you have any questions or suggestions, feel free to reach out:
-- **GitHub:** [Your GitHub Username](https://github.com/your-username)
-- **Email:** your-email@example.com
