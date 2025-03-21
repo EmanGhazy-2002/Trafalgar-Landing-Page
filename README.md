@@ -17,7 +17,6 @@ You can view the live demo of the project here: [Trafalgar Demo](https://trafalg
 ## Technologies Used
 - **HTML5:** For structuring the content of the landing page.
 - **CSS3:** For styling, including Flexbox and Grid for responsive layouts.
-- **Google Fonts:** Utilizes the "Muli" font for consistent typography.
 - **Netlify:** Used for deploying and hosting the live demo.
 
 ## Purpose
